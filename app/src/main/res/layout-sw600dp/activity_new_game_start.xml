@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_game_background"
+    android:screenOrientation="portrait"
+    tools:context=".NewGameStart">
+
+    <LinearLayout
+        android:id="@+id/main_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="30sp"
+        android:paddingLeft="30sp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8sp"
+                android:text="Старинные текста хранят в себе пророчество о новом правителе Регнумских земель"
+                android:textColor="#FFB900"
+                android:textSize="60sp"
+                app:fontFamily="@font/mainfont"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8sp"
+                android:text="Который своим величием будет на равне с королями"
+                android:textColor="#FFB900"
+                android:textSize="60sp"
+                app:fontFamily="@font/mainfont"
+                tools:ignore="HardcodedText,MissingClass" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8sp"
+                android:text="Своим мудрым правлением, он возразит из пепла былое могущества Регнума."
+                android:textColor="#FFB900"
+                android:textSize="60sp"
+                app:fontFamily="@font/mainfont"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8sp"
+                android:text="Но про Вас ли говорят старинные текста?"
+                android:textColor="#FFB900"
+                android:textSize="60sp"
+                app:fontFamily="@font/mainfont" />
+            
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/startgame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50sp"
+            android:paddingLeft="8dp"
+            android:paddingTop="4dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="4dp"
+            android:text="Продолжить"
+            android:textColor="#FFB900"
+            android:textSize="60sp"
+            app:fontFamily="@font/mainfont"
+            tools:ignore="HardcodedText" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

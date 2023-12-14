@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ballade of the Kingdom</string>
+    <string name="app_version">By Suafer, 2023, BETA TEST</string>
+    <string name="education">Давайте построим здесь, какое-нибудь строение</string>
+
+    <string name="menu_name">Пауза</string>
+    <string name="menu_text">Не забывайте о своём королевстве и заходите по чаще.</string>
+    <string name="menu_action_to_menu">Выйти в Главное Меню</string>
+    <string name="menu_action_exite">Выйти из игры</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="8dp"
+        android:background="@color/menu_color"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imageAffairsLogo"
+            android:layout_width="70dp"
+            android:layout_height="70sp"
+            android:padding = "4dp"
+            android:src = "@drawable/icon_food"/>
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Название"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            app:fontFamily="@font/mainfont"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
